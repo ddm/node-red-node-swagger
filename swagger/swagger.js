@@ -88,7 +88,7 @@ module.exports = function(RED) {
                         if(swagger.deprecated){
                             swaggerPart.deprecated = true;
                         }
-                        if(swagger.parameters.length > 0){
+                        if(swagger.parameters && swagger.parameters.length > 0){
                             swaggerPart.parameters = swagger.parameters.slice();
                             if(additionalParams){
                                 for(var i in additionalParams){
@@ -177,4 +177,4 @@ module.exports = function(RED) {
         var filename = path.join(__dirname , 'swagger-ui', req.params[0]);
         sendFile(res,filename);
     });
-}
+};
