@@ -1,6 +1,6 @@
 {
     "name": "node-red-node-swagger-ddm",
-    "version": "0.1.8",
+    "version": "0.1.8-fix",
     "description": "A set of tools for generating Swagger API documentation based on the HTTP nodes deployed in a flow",
     "license": "Apache",
     "repository": {
