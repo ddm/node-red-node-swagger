@@ -1,5 +1,5 @@
 {
-    "name": "node-red-node-swagger",
+    "name": "node-red-node-swagger-ddm",
     "version": "0.1.8",
     "description": "A set of tools for generating Swagger API documentation based on the HTTP nodes deployed in a flow",
     "license": "Apache",
@@ -12,7 +12,7 @@
         "swagger"
     ],
     "node-red": {
-        "version": ">=0.11.0",
+        "version": ">=4.0.0",
         "nodes": {
             "swagger": "swagger/swagger.js"
         }
