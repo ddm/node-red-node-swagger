@@ -12,7 +12,7 @@
         "swagger"
     ],
     "node-red": {
-        "version": ">=4.0.0",
+       "version": ">=0.15.0",
         "nodes": {
             "swagger": "swagger/swagger.js"
         }
